@@ -1,0 +1,2039 @@
+fileFormatVersion: 2
+guid: d7d89213e5694492d98ba024fc747427
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4650582210323848173
+    second: UI_animation_32x32_0
+  - first:
+      213: 865724632991430056
+    second: UI_animation_32x32_1
+  - first:
+      213: 6789238211091781595
+    second: UI_animation_32x32_2
+  - first:
+      213: 9054146006621632350
+    second: UI_animation_32x32_3
+  - first:
+      213: -7133468381847522304
+    second: UI_animation_32x32_4
+  - first:
+      213: 7853765083201537400
+    second: UI_animation_32x32_5
+  - first:
+      213: 4262284971979773783
+    second: UI_animation_32x32_6
+  - first:
+      213: -5875246203332534919
+    second: UI_animation_32x32_7
+  - first:
+      213: 581025317955143419
+    second: UI_animation_32x32_8
+  - first:
+      213: -4103723128121297963
+    second: UI_animation_32x32_9
+  - first:
+      213: 388251788336011621
+    second: UI_animation_32x32_10
+  - first:
+      213: 1329672909491967454
+    second: UI_animation_32x32_11
+  - first:
+      213: 1969004182344275477
+    second: UI_animation_32x32_12
+  - first:
+      213: 7845661409032249009
+    second: UI_animation_32x32_13
+  - first:
+      213: 6913415102437050011
+    second: UI_animation_32x32_14
+  - first:
+      213: 3341347720233118552
+    second: UI_animation_32x32_15
+  - first:
+      213: -6900975802884866644
+    second: UI_animation_32x32_16
+  - first:
+      213: -8572217497923987453
+    second: UI_animation_32x32_17
+  - first:
+      213: -2674420250283130276
+    second: UI_animation_32x32_18
+  - first:
+      213: -7688384212368545770
+    second: UI_animation_32x32_19
+  - first:
+      213: -8539713032463183019
+    second: UI_animation_32x32_20
+  - first:
+      213: 8412190540785055450
+    second: UI_animation_32x32_21
+  - first:
+      213: -6548983316617619135
+    second: UI_animation_32x32_22
+  - first:
+      213: -7679860665445515485
+    second: UI_animation_32x32_23
+  - first:
+      213: 4802731833838551572
+    second: UI_animation_32x32_24
+  - first:
+      213: 2415034260712651210
+    second: UI_animation_32x32_25
+  - first:
+      213: 5279425587861689771
+    second: UI_animation_32x32_26
+  - first:
+      213: -1606412170097783140
+    second: UI_animation_32x32_27
+  - first:
+      213: -6918177008837620510
+    second: UI_animation_32x32_28
+  - first:
+      213: 2733065184097733730
+    second: UI_animation_32x32_29
+  - first:
+      213: 4146210689040307666
+    second: UI_animation_32x32_30
+  - first:
+      213: -3449711348126108087
+    second: UI_animation_32x32_31
+  - first:
+      213: -6156210750275903057
+    second: UI_animation_32x32_32
+  - first:
+      213: 686035872664191917
+    second: UI_animation_32x32_33
+  - first:
+      213: -4218677095718884761
+    second: UI_animation_32x32_34
+  - first:
+      213: 1149360398186165839
+    second: UI_animation_32x32_35
+  - first:
+      213: 7324895126764116156
+    second: UI_animation_32x32_36
+  - first:
+      213: 6627979513048751757
+    second: UI_animation_32x32_37
+  - first:
+      213: -7208921147113025435
+    second: UI_animation_32x32_38
+  - first:
+      213: -7145591408192079421
+    second: UI_animation_32x32_39
+  - first:
+      213: 2127395025796385719
+    second: UI_animation_32x32_40
+  - first:
+      213: -1807731716750889184
+    second: UI_animation_32x32_41
+  - first:
+      213: -1474385595240480295
+    second: UI_animation_32x32_42
+  - first:
+      213: -8356850855121079070
+    second: UI_animation_32x32_43
+  - first:
+      213: 8958739906692092515
+    second: UI_animation_32x32_44
+  - first:
+      213: -4106986438887882711
+    second: UI_animation_32x32_45
+  - first:
+      213: -4409788501249265920
+    second: UI_animation_32x32_46
+  - first:
+      213: 7443891121069084094
+    second: UI_animation_32x32_47
+  - first:
+      213: -2627096905607827541
+    second: UI_animation_32x32_48
+  - first:
+      213: -5727775308906206327
+    second: UI_animation_32x32_49
+  - first:
+      213: 9203130470564468005
+    second: UI_animation_32x32_50
+  - first:
+      213: 2586173820163942806
+    second: UI_animation_32x32_51
+  - first:
+      213: -4920049909824828866
+    second: UI_animation_32x32_52
+  - first:
+      213: 6329152148343416763
+    second: UI_animation_32x32_53
+  - first:
+      213: 2069441000280985117
+    second: UI_animation_32x32_54
+  - first:
+      213: 26525650706370863
+    second: UI_animation_32x32_55
+  - first:
+      213: 4796511861681109870
+    second: UI_animation_32x32_56
+  - first:
+      213: -1754090678485974298
+    second: UI_animation_32x32_57
+  - first:
+      213: 4018006583474374220
+    second: UI_animation_32x32_58
+  - first:
+      213: -3263906576742744430
+    second: UI_animation_32x32_59
+  - first:
+      213: -5601489500830327472
+    second: UI_animation_32x32_60
+  - first:
+      213: 7323767570073088332
+    second: UI_animation_32x32_61
+  - first:
+      213: -3254446549193982835
+    second: UI_animation_32x32_62
+  - first:
+      213: -2173287644229335292
+    second: UI_animation_32x32_63
+  - first:
+      213: -46527150840384863
+    second: UI_animation_32x32_64
+  - first:
+      213: 5611824624959986758
+    second: UI_animation_32x32_65
+  - first:
+      213: 2469675328031111657
+    second: UI_animation_32x32_66
+  - first:
+      213: -6328248023660920277
+    second: UI_animation_32x32_67
+  - first:
+      213: -3900271911743933988
+    second: UI_animation_32x32_68
+  - first:
+      213: 4718327414328064675
+    second: UI_animation_32x32_69
+  - first:
+      213: 5140515677740791063
+    second: UI_animation_32x32_70
+  - first:
+      213: -2651784349929201300
+    second: UI_animation_32x32_71
+  - first:
+      213: -52128024076956920
+    second: UI_animation_32x32_72
+  - first:
+      213: 7103939840469585582
+    second: UI_animation_32x32_73
+  - first:
+      213: -3921376985854992914
+    second: UI_animation_32x32_74
+  - first:
+      213: 2983660078881280792
+    second: UI_animation_32x32_75
+  - first:
+      213: -6795757736372072097
+    second: UI_animation_32x32_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_animation_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 295
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb9a1561ef2a8040800000000000000
+      internalID: 4650582210323848173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 289
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a572c687fba30c00800000000000000
+      internalID: 865724632991430056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 271
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd752ab9e28383e50800000000000000
+      internalID: 6789238211091781595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 271
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57343572d9c6ad70800000000000000
+      internalID: 9054146006621632350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 263
+        width: 112
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0047f7b2d44d00d90800000000000000
+      internalID: -7133468381847522304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 271
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875089d6bbd2efc60800000000000000
+      internalID: 7853765083201537400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 281
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7571756799da62b30800000000000000
+      internalID: 4262284971979773783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 271
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dd66ad4bee67ea0800000000000000
+      internalID: -5875246203332534919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 281
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf68932c277301800800000000000000
+      internalID: 581025317955143419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 271
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d376c3be85ac07c0800000000000000
+      internalID: -4103723128121297963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 273
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5699d27c1f8536500800000000000000
+      internalID: 388251788336011621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 227
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed59abd5772f37210800000000000000
+      internalID: 1329672909491967454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 225
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51693e12fde435b10800000000000000
+      internalID: 1969004182344275477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 207
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be9b51cb7361ec60800000000000000
+      internalID: 7845661409032249009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 225
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96c495286261ff50800000000000000
+      internalID: 6913415102437050011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 223
+        width: 88
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b6e8f5c0ade5e20800000000000000
+      internalID: 3341347720233118552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 207
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad3b79f11fca30a0800000000000000
+      internalID: -6900975802884866644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 217
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3085ada6a9d590980800000000000000
+      internalID: -8572217497923987453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 207
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5243c9b3fc82ead0800000000000000
+      internalID: -2674420250283130276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 217
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6182d0d2b4f5d4590800000000000000
+      internalID: -7688384212368545770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 207
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55312480e38dc7980800000000000000
+      internalID: -8539713032463183019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 207
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6f4662aba1eb470800000000000000
+      internalID: 8412190540785055450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 209
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1491c0d1f565d15a0800000000000000
+      internalID: -6548983316617619135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fff971a67ab6590800000000000000
+      internalID: -7679860665445515485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412486b282bb6a240800000000000000
+      internalID: 4802731833838551572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 159
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9fc2e5ddce38120800000000000000
+      internalID: 2415034260712651210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 127
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba59a9eb999444940800000000000000
+      internalID: 5279425587861689771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 159
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e057674a0e4b9e0800000000000000
+      internalID: -1606412170097783140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 127
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec85fe1aa2bdff90800000000000000
+      internalID: -6918177008837620510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 159
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c0226fd4ccde520800000000000000
+      internalID: 2733065184097733730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 127
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5dc2477ac4a8930800000000000000
+      internalID: 4146210689040307666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 159
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9463f456ec92020d0800000000000000
+      internalID: -3449711348126108087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 127
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa12d5b80feb09aa0800000000000000
+      internalID: -6156210750275903057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 159
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3035dcdf9458900800000000000000
+      internalID: 686035872664191917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 127
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a699f688f3475c0800000000000000
+      internalID: -4218677095718884761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 159
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46b9cc413953ff00800000000000000
+      internalID: 1149360398186165839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 127
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8d3cf0f4147a560800000000000000
+      internalID: 7324895126764116156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 159
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e56d520405bfb50800000000000000
+      internalID: 6627979513048751757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 127
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560d6844964c4fb90800000000000000
+      internalID: -7208921147113025435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 159
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9b0a42972c5dc90800000000000000
+      internalID: -7145591408192079421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 127
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbc6892186068d10800000000000000
+      internalID: 2127395025796385719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 159
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f2bd5d495a9e6e0800000000000000
+      internalID: -1807731716750889184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 127
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d10dbddc1ee98be0800000000000000
+      internalID: -1474385595240480295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4b69b7c60860c80800000000000000
+      internalID: -8356850855121079070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3629f7dca76d35c70800000000000000
+      internalID: 8958739906692092515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920cdb4f79d0107c0800000000000000
+      internalID: -4106986438887882711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 63
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f6f60e8b84dc2c0800000000000000
+      internalID: -4409788501249265920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdc10209830e4760800000000000000
+      internalID: 7443891121069084094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 63
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafa7b6884daa8bd0800000000000000
+      internalID: -2627096905607827541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b646f14bad280b0800000000000000
+      internalID: -5727775308906206327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 63
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5259197176618bf70800000000000000
+      internalID: 9203130470564468005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6996946236fe3e320800000000000000
+      internalID: 2586173820163942806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 63
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ac2bfaca878bbb0800000000000000
+      internalID: -4920049909824828866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7e86b785aa5d750800000000000000
+      internalID: 6329152148343416763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 63
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e806910a128bc10800000000000000
+      internalID: 2069441000280985117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f211ac350fc3e5000800000000000000
+      internalID: 26525650706370863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 63
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b337c0022a09240800000000000000
+      internalID: 4796511861681109870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2050d42d738a7e0800000000000000
+      internalID: -1754090678485974298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 63
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46cb2903b3d2c730800000000000000
+      internalID: 4018006583474374220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29eff29e24644b2d0800000000000000
+      internalID: -3263906576742744430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d9de91af28342b0800000000000000
+      internalID: -5601489500830327472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c417bbf4dcf33a560800000000000000
+      internalID: 7323767570073088332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cfbc63b12e5d2d0800000000000000
+      internalID: -3254446549193982835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40707f2f66ee6d1e0800000000000000
+      internalID: -2173287644229335292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a27fb58dc3ba5ff0800000000000000
+      internalID: -46527150840384863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 31
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c978083c431ed40800000000000000
+      internalID: 5611824624959986758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e937dd30ac064220800000000000000
+      internalID: 2469675328031111657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 31
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b228f1373fb8d28a0800000000000000
+      internalID: -6328248023660920277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1b11d5c537fd9c0800000000000000
+      internalID: -3900271911743933988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 31
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aaf209d8cdda7140800000000000000
+      internalID: 4718327414328064675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715f016f5c7c65740800000000000000
+      internalID: 5140515677740791063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 31
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61a789fe28f23bd0800000000000000
+      internalID: -2651784349929201300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bcc0a96ddc64ff0800000000000000
+      internalID: -52128024076956920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 31
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae4fe885a3469260800000000000000
+      internalID: 7103939840469585582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed98bf58687499c0800000000000000
+      internalID: -3921376985854992914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 31
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8139b3c9807186920800000000000000
+      internalID: 2983660078881280792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_animation_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f511eef185e90b1a0800000000000000
+      internalID: -6795757736372072097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_animation_32x32_0: 4650582210323848173
+      UI_animation_32x32_1: 865724632991430056
+      UI_animation_32x32_10: 388251788336011621
+      UI_animation_32x32_11: 1329672909491967454
+      UI_animation_32x32_12: 1969004182344275477
+      UI_animation_32x32_13: 7845661409032249009
+      UI_animation_32x32_14: 6913415102437050011
+      UI_animation_32x32_15: 3341347720233118552
+      UI_animation_32x32_16: -6900975802884866644
+      UI_animation_32x32_17: -8572217497923987453
+      UI_animation_32x32_18: -2674420250283130276
+      UI_animation_32x32_19: -7688384212368545770
+      UI_animation_32x32_2: 6789238211091781595
+      UI_animation_32x32_20: -8539713032463183019
+      UI_animation_32x32_21: 8412190540785055450
+      UI_animation_32x32_22: -6548983316617619135
+      UI_animation_32x32_23: -7679860665445515485
+      UI_animation_32x32_24: 4802731833838551572
+      UI_animation_32x32_25: 2415034260712651210
+      UI_animation_32x32_26: 5279425587861689771
+      UI_animation_32x32_27: -1606412170097783140
+      UI_animation_32x32_28: -6918177008837620510
+      UI_animation_32x32_29: 2733065184097733730
+      UI_animation_32x32_3: 9054146006621632350
+      UI_animation_32x32_30: 4146210689040307666
+      UI_animation_32x32_31: -3449711348126108087
+      UI_animation_32x32_32: -6156210750275903057
+      UI_animation_32x32_33: 686035872664191917
+      UI_animation_32x32_34: -4218677095718884761
+      UI_animation_32x32_35: 1149360398186165839
+      UI_animation_32x32_36: 7324895126764116156
+      UI_animation_32x32_37: 6627979513048751757
+      UI_animation_32x32_38: -7208921147113025435
+      UI_animation_32x32_39: -7145591408192079421
+      UI_animation_32x32_4: -7133468381847522304
+      UI_animation_32x32_40: 2127395025796385719
+      UI_animation_32x32_41: -1807731716750889184
+      UI_animation_32x32_42: -1474385595240480295
+      UI_animation_32x32_43: -8356850855121079070
+      UI_animation_32x32_44: 8958739906692092515
+      UI_animation_32x32_45: -4106986438887882711
+      UI_animation_32x32_46: -4409788501249265920
+      UI_animation_32x32_47: 7443891121069084094
+      UI_animation_32x32_48: -2627096905607827541
+      UI_animation_32x32_49: -5727775308906206327
+      UI_animation_32x32_5: 7853765083201537400
+      UI_animation_32x32_50: 9203130470564468005
+      UI_animation_32x32_51: 2586173820163942806
+      UI_animation_32x32_52: -4920049909824828866
+      UI_animation_32x32_53: 6329152148343416763
+      UI_animation_32x32_54: 2069441000280985117
+      UI_animation_32x32_55: 26525650706370863
+      UI_animation_32x32_56: 4796511861681109870
+      UI_animation_32x32_57: -1754090678485974298
+      UI_animation_32x32_58: 4018006583474374220
+      UI_animation_32x32_59: -3263906576742744430
+      UI_animation_32x32_6: 4262284971979773783
+      UI_animation_32x32_60: -5601489500830327472
+      UI_animation_32x32_61: 7323767570073088332
+      UI_animation_32x32_62: -3254446549193982835
+      UI_animation_32x32_63: -2173287644229335292
+      UI_animation_32x32_64: -46527150840384863
+      UI_animation_32x32_65: 5611824624959986758
+      UI_animation_32x32_66: 2469675328031111657
+      UI_animation_32x32_67: -6328248023660920277
+      UI_animation_32x32_68: -3900271911743933988
+      UI_animation_32x32_69: 4718327414328064675
+      UI_animation_32x32_7: -5875246203332534919
+      UI_animation_32x32_70: 5140515677740791063
+      UI_animation_32x32_71: -2651784349929201300
+      UI_animation_32x32_72: -52128024076956920
+      UI_animation_32x32_73: 7103939840469585582
+      UI_animation_32x32_74: -3921376985854992914
+      UI_animation_32x32_75: 2983660078881280792
+      UI_animation_32x32_76: -6795757736372072097
+      UI_animation_32x32_8: 581025317955143419
+      UI_animation_32x32_9: -4103723128121297963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
