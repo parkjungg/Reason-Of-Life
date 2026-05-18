@@ -11,11 +11,13 @@ public class PlayerMovement : MonoBehaviour, IMovable
 
     private PlayerInput    _input;
     private PlayerAnimator _playerAnimator;
+    private Rigidbody2D    _rb;
 
     private void Awake()
     {
         _input          = GetComponent<PlayerInput>();
         _playerAnimator = GetComponent<PlayerAnimator>();
+        _rb             = GetComponent<Rigidbody2D>();
     }
 
     private void Start()
@@ -30,18 +32,17 @@ public class PlayerMovement : MonoBehaviour, IMovable
         bool    moving = dir != Vector2.zero;
 
         _playerAnimator.UpdateAnimation(dir, moving);
+    }
 
-        if (!moving) return;
-
-        Vector2 nextPos = (Vector2)transform.position + dir * moveSpeed * Time.deltaTime;
-
-        if (CanMoveTo(nextPos))
-            transform.position = nextPos;
+    private void FixedUpdate()
+    {
+        Vector2 dir = _input.MoveInput;
+        _rb.velocity = dir * moveSpeed;
     }
 
     public void Move(Vector2 direction)
     {
-        transform.position += (Vector3)(direction * moveSpeed * Time.deltaTime);
+        _rb.velocity = direction * moveSpeed;
     }
 
     public bool CanMoveTo(Vector2 targetPosition)
