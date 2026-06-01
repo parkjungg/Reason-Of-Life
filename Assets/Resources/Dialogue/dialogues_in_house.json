@@ -1,0 +1,21 @@
+{
+    "dialogues": [
+        {
+            "id": "toy_001",
+            "speakerName": "alex",
+            "lines": [
+                "hi",
+                "my name is..",
+                "KIm!"
+            ]
+        },
+        {
+            "id": "toy_002",
+            "speakerName": "Trump",
+            "lines": [
+                "My name is",
+                "Trump"
+            ]
+        }
+    ]
+}

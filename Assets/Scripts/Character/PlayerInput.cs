@@ -6,6 +6,11 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
+        if (DialogueManager.instance != null && DialogueManager.instance.IsDialoguing)
+        {
+            MoveInput = Vector2.zero;
+            return;
+        }
         float x = 0f, y = 0f;
 
         if (Input.GetKey(KeyCode.A)) x = -1f;
