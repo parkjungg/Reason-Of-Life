@@ -12,6 +12,19 @@ public class DialogueObject : MonoBehaviour
 
     [Header("Interaction")]
     public float interactionRadius = 1.5f;
+    [SerializeField] private GameObject interactionMarkPrefab;
+    private GameObject _indicator;
+
+    private void Start()
+    {
+        _indicator = Instantiate(interactionMarkPrefab, transform);
+        _indicator.transform.localPosition = new Vector3(0, 0.7f, 0);
+    }
+
+    public void SetInteracted(bool interacted)
+    {
+        _indicator.SetActive(!interacted);
+    }
 
     private void OnDrawGizmosSelected()
     {

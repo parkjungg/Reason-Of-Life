@@ -20,6 +20,7 @@ public class PlayerInteraction : MonoBehaviour
                 {
                     ActionPointManager.instance.UseAP(3);
                     _interactedObjects.Add(_nearbyTarget);
+                    _nearbyTarget.SetInteracted(true);
                 }
                 _isInteracting = false;
             }

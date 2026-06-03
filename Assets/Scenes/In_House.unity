@@ -30113,6 +30113,7 @@ MonoBehaviour:
   dialogueIdByDay:
   - toy_001
   interactionRadius: 1.5
+  interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!61 &1493997645
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35278,6 +35279,7 @@ MonoBehaviour:
   - toy_002
   - 
   interactionRadius: 1.5
+  interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!61 &1966244133
 BoxCollider2D:
   m_ObjectHideFlags: 0
