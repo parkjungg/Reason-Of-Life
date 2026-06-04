@@ -3,9 +3,12 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
     public Vector2 MoveInput { get; private set; }
-
+    public bool InteractPressed { get; private set; }
+    
     void Update()
     {
+        InteractPressed = Input.GetKeyDown(KeyCode.Space);
+        
         if (DialogueManager.instance != null && DialogueManager.instance.IsDialoguing)
         {
             MoveInput = Vector2.zero;

@@ -13,6 +13,7 @@ public class DialogueObject : MonoBehaviour
     [Header("Interaction")]
     public float interactionRadius = 1.5f;
 
+    // 추후 제거 (디버그용)
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;

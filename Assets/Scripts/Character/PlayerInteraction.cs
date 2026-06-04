@@ -3,11 +3,17 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    private PlayerInput _input;
     private DialogueObject _nearbyTarget;
+
+    private void Awake()
+    {
+        _input = GetComponent<PlayerInput>();
+    }
 
     private void Update()
     {
-        if (!Input.GetKeyDown(KeyCode.Space)) return;
+        if (!_input.InteractPressed) return;
 
         if (DialogueManager.instance.IsDialoguing)
         {
