@@ -3588,6 +3588,7 @@ MonoBehaviour:
   dialogueIdByDay: []
   isBed: 1
   interactionRadius: 1.5
+  availableDays: 
   interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!1 &526113043
 GameObject:
@@ -30120,8 +30121,10 @@ MonoBehaviour:
   jsonFileName: dialogues_in_house
   dialogueIdByDay:
   - toy_001
+  - toy_0012
   isBed: 0
   interactionRadius: 1.5
+  availableDays: 
   interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!61 &1493997645
 BoxCollider2D:
@@ -35200,9 +35203,9 @@ MonoBehaviour:
   jsonFileName: dialogues_in_house
   dialogueIdByDay:
   - toy_002
-  - 
   isBed: 0
   interactionRadius: 1.5
+  availableDays: 0100000002000000
   interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!61 &1966244133
 BoxCollider2D:

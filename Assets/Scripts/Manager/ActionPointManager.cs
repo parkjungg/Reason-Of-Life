@@ -5,17 +5,11 @@ public class ActionPointManager : MonoBehaviour
 {
     public static ActionPointManager instance { get; private set; }
 
-    private static readonly Dictionary<LifePhase, int> MaxAPByPhase = new()
-    {
-        { LifePhase.Infancy, 5 },
-        { LifePhase.Adolescence, 10 },
-        { LifePhase.Adult, 10 },
-        { LifePhase.Elderly, 7 }
-    };
+    
 
     public LifePhase currentPhase = LifePhase.Infancy;
     public int CurrentAP { get; private set; }
-    public int MaxAP => MaxAPByPhase[currentPhase];
+    public int MaxAP => GameConfig.MaxAPByPhase[currentPhase];
 
     private void Awake()
     {

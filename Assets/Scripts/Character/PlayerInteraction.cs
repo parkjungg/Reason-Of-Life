@@ -49,7 +49,13 @@ public class PlayerInteraction : MonoBehaviour
             // TODO : 행동력이 부족하다는 UI 띄우기
             return;
         }
-        int day = 0;
+        int day = GameManager.instance.currentDay - 1;
+        
+        if (day >= _nearbyTarget.dialogueIdByDay.Length)
+        {
+            Debug.LogWarning("해당 날짜의 대사 없음");
+            return;
+        }
         string id = _nearbyTarget.dialogueIdByDay[day];
         DialogueManager.instance.StartDialogue(id);
         _isInteracting = true;

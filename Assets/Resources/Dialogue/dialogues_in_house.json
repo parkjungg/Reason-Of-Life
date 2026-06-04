@@ -2,7 +2,7 @@
     "dialogues": [
         {
             "id": "toy_001",
-            "speakerName": "alex",
+            "speakerName": "Kim",
             "lines": [
                 "hi",
                 "my name is..",
@@ -15,6 +15,14 @@
             "lines": [
                 "My name is",
                 "Trump"
+            ]
+        },
+        {
+            "id": "toy_0012",
+            "speakerName": "Kim",
+            "lines": [
+                "every..",
+                "so boring...!"
             ]
         }
     ]
