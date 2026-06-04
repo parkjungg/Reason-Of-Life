@@ -9,7 +9,8 @@ public class PlayerInput : MonoBehaviour
     {
         InteractPressed = Input.GetKeyDown(KeyCode.Space);
         
-        if (DialogueManager.instance != null && DialogueManager.instance.IsDialoguing)
+        if (GameManager.instance.IsSleeping ||
+            DialogueManager.instance != null && DialogueManager.instance.IsDialoguing)
         {
             MoveInput = Vector2.zero;
             return;

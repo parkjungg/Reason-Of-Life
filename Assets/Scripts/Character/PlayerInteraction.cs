@@ -15,6 +15,7 @@ public class PlayerInteraction : MonoBehaviour
     private void Update()
     {
         if (!_input.InteractPressed) return;
+        if (GameManager.instance.IsSleeping) return;
 
         if (DialogueManager.instance.IsDialoguing)
         {

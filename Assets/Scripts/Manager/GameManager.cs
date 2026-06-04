@@ -7,9 +7,11 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance { get; private set; }
 
+    [Header("InGame")]
     public int currentDay = 1;
     public LifePhase currentPhase = LifePhase.Infancy;
     private int _dayInPhase = 1;
+    public bool IsSleeping { get; private set; }
 
     private void Awake()
     {
@@ -24,6 +26,8 @@ public class GameManager : MonoBehaviour
 
     public void Sleep()
     {
+        if (IsSleeping) return;
+        IsSleeping = true;
         StartCoroutine(SleepRoutine());
     }
 
@@ -39,6 +43,8 @@ public class GameManager : MonoBehaviour
         yield return new WaitUntil(() => op.isDone);
         
         yield return StartCoroutine(FadeController.instance.FadeIn());
+
+        IsSleeping = false;
     }
 
     private void AdvanceDay()
