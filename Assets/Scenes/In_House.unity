@@ -3589,6 +3589,7 @@ MonoBehaviour:
   isBed: 1
   interactionRadius: 1.5
   availableDays: 
+  apCost: 0
   interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!1 &526113043
 GameObject:
@@ -30125,6 +30126,7 @@ MonoBehaviour:
   isBed: 0
   interactionRadius: 1.5
   availableDays: 
+  apCost: 2
   interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!61 &1493997645
 BoxCollider2D:
@@ -33020,7 +33022,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 50
   m_Sprite: {fileID: 7326024772337070419, guid: ec229e41d027c449185676705cc15dff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -35206,6 +35208,7 @@ MonoBehaviour:
   isBed: 0
   interactionRadius: 1.5
   availableDays: 0100000003000000
+  apCost: 1
   interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!61 &1966244133
 BoxCollider2D:
