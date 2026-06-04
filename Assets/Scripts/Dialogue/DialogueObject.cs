@@ -11,6 +11,7 @@ public class DialogueObject : MonoBehaviour
     public string[] dialogueIdByDay;
 
     [Header("Interaction")]
+    public bool isBed = false;
     public float interactionRadius = 1.5f;
     [SerializeField] private GameObject interactionMarkPrefab;
     private GameObject _indicator;

@@ -27,21 +27,26 @@ public class PlayerInteraction : MonoBehaviour
             return;
         }
 
-        if (_nearbyTarget != null)
+        if (_nearbyTarget == null) return;
+
+        if (_nearbyTarget.isBed)
         {
-            bool alreadyInteracted = _interactedObjects.Contains(_nearbyTarget);
-            
-            if (!alreadyInteracted && !ActionPointManager.instance.HasAP(3))
-            {
-                Debug.Log("행동력이 부족해서 상호작용 불가");
-                // TODO : 행동력이 부족하다는 UI 띄우기
-                return;
-            }
-            int day = 0;
-            string id = _nearbyTarget.dialogueIdByDay[day];
-            DialogueManager.instance.StartDialogue(id);
-            _isInteracting = true;
+            GameManager.instance.Sleep();
+            return;
         }
+        
+        bool alreadyInteracted = _interactedObjects.Contains(_nearbyTarget);
+            
+        if (!alreadyInteracted && !ActionPointManager.instance.HasAP(3))
+        {
+            Debug.Log("행동력이 부족해서 상호작용 불가");
+            // TODO : 행동력이 부족하다는 UI 띄우기
+            return;
+        }
+        int day = 0;
+        string id = _nearbyTarget.dialogueIdByDay[day];
+        DialogueManager.instance.StartDialogue(id);
+        _isInteracting = true;
     }
 
     private void FixedUpdate()

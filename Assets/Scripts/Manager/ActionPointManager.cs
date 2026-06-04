@@ -26,10 +26,11 @@ public class ActionPointManager : MonoBehaviour
         }
 
         instance = this;
+        DontDestroyOnLoad(gameObject);
         ResetDay();
     }
 
-    private void ResetDay()
+    public void ResetDay()
     {
         CurrentAP = MaxAP;
         Debug.Log($"[AP] 새 날 시작 - 행동력 초기화: {CurrentAP}");
