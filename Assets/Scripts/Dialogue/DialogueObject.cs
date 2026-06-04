@@ -14,6 +14,7 @@ public class DialogueObject : MonoBehaviour
     public bool isBed = false;
     public float interactionRadius = 1.5f;
     public int[] availableDays;
+    public int apCost = 1;
     
     [SerializeField] private GameObject interactionMarkPrefab;
     private GameObject _indicator;

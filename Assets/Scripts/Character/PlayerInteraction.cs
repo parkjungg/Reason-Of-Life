@@ -25,7 +25,7 @@ public class PlayerInteraction : MonoBehaviour
             {
                 if (!_interactedObjects.Contains(_nearbyTarget))
                 {
-                    ActionPointManager.instance.UseAP(3);
+                    ActionPointManager.instance.UseAP(_nearbyTarget.apCost);
                     _interactedObjects.Add(_nearbyTarget);
                     _nearbyTarget.SetInteracted(true);
                 }
@@ -44,7 +44,7 @@ public class PlayerInteraction : MonoBehaviour
         
         bool alreadyInteracted = _interactedObjects.Contains(_nearbyTarget);
             
-        if (!alreadyInteracted && !ActionPointManager.instance.HasAP(3))
+        if (!alreadyInteracted && !ActionPointManager.instance.HasAP(_nearbyTarget.apCost))
         {
             Debug.Log("행동력이 부족해서 상호작용 불가");
             // TODO : 행동력이 부족하다는 UI 띄우기
