@@ -1,5 +1,13 @@
 using System.Collections.Generic;
 
+public enum HappinessState
+{
+    Happy,
+    Stable,
+    Bad,
+    Depressed,
+    Collapse
+}
 public enum LifePhase
 {
     Infancy,

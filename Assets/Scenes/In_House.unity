@@ -3439,6 +3439,7 @@ GameObject:
   - component: {fileID: 483393280}
   - component: {fileID: 483393279}
   - component: {fileID: 483393281}
+  - component: {fileID: 483393282}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -3488,6 +3489,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPhase: 0
+--- !u!114 &483393282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483393278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37fab7d1e959b41a78175ffd80a9647e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  happiness: 100
 --- !u!1 &503568285
 GameObject:
   m_ObjectHideFlags: 0
@@ -3668,6 +3682,7 @@ MonoBehaviour:
   interactionRadius: 1.5
   availableDays: 
   apCost: 0
+  happinessAP: 0
   interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!1 &526113043
 GameObject:
@@ -30432,6 +30447,7 @@ MonoBehaviour:
   interactionRadius: 1.5
   availableDays: 
   apCost: 2
+  happinessAP: -30
   interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!61 &1493997645
 BoxCollider2D:
@@ -35514,6 +35530,7 @@ MonoBehaviour:
   interactionRadius: 1.5
   availableDays: 0100000003000000
   apCost: 1
+  happinessAP: 20
   interactionMarkPrefab: {fileID: 8465129987066947540, guid: c06b9247542d045c48f9316a96a8c8f8, type: 3}
 --- !u!61 &1966244133
 BoxCollider2D:

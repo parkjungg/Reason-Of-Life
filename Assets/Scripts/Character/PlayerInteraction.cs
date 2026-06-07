@@ -25,6 +25,7 @@ public class PlayerInteraction : MonoBehaviour
             {
                 if (!_interactedObjects.Contains(_nearbyTarget))
                 {
+                    HappinessManager.instance.ModifyHappiness(_nearbyTarget.happinessAP);
                     ActionPointManager.instance.UseAP(_nearbyTarget.apCost);
                     _interactedObjects.Add(_nearbyTarget);
                     _nearbyTarget.SetInteracted(true);

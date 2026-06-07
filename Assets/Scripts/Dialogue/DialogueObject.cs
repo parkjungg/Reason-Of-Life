@@ -15,6 +15,7 @@ public class DialogueObject : MonoBehaviour
     public float interactionRadius = 1.5f;
     public int[] availableDays;
     public int apCost = 1;
+    public float happinessAP;
     
     [SerializeField] private GameObject interactionMarkPrefab;
     private GameObject _indicator;
