@@ -17,6 +17,16 @@ public class PlayerInteraction : MonoBehaviour
         if (!_input.InteractPressed) return;
         if (GameManager.instance.IsSleeping) return;
 
+        if (HappinessManager.instance.CurrentState == HappinessState.Collapse)
+        {
+            if (_nearbyTarget != null && _nearbyTarget.isBed)
+                GameManager.instance.Sleep();
+            else if(_nearbyTarget != null && !_nearbyTarget.isBed)
+                Debug.Log("잠에 드는게 좋겠다...");
+                // TODO : 로그 대신 UI로 띄우기
+            return;
+        }
+
         if (DialogueManager.instance.IsDialoguing)
         {
             DialogueManager.instance.Advance();

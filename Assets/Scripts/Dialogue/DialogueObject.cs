@@ -52,6 +52,12 @@ public class DialogueObject : MonoBehaviour
         _indicator.SetActive(!interacted);
     }
 
+    public void SetIndicatorVisible(bool visible)
+    {
+        if(_indicator != null)
+            _indicator.SetActive(visible);
+    }
+
     // 추후 제거 (디버그용)
     private void OnDrawGizmosSelected()
     {

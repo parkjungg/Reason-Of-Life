@@ -41,7 +41,7 @@ public class HappinessManager : MonoBehaviour
             >= 80 => HappinessState.Happy,
             >= 50 => HappinessState.Stable,
             >= 30 => HappinessState.Bad,
-            >= 6 => HappinessState.Depressed,
+            >= 5 => HappinessState.Depressed,
             _ => HappinessState.Collapse
         };
 
@@ -49,6 +49,21 @@ public class HappinessManager : MonoBehaviour
         {
             CurrentState = newState;
             OnStateChanged?.Invoke(CurrentState);
+
+            if (CurrentState == HappinessState.Collapse)
+            {
+                Debug.Log("붕괴상태입니다. 수면에 들어가야합니다!");
+                DisableAllDialogueObjects();
+            }
+        }
+    }
+
+    void DisableAllDialogueObjects()
+    {
+        foreach (var obj in FindObjectsByType<DialogueObject>(FindObjectsSortMode.None))
+        {
+            if(!obj.isBed)
+                obj.SetIndicatorVisible(false);
         }
     }
 }

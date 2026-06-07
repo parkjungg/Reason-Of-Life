@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -36,6 +35,7 @@ public class GameManager : MonoBehaviour
         yield return StartCoroutine(FadeController.instance.FadeOut());
 
         AdvanceDay();
+        HappinessManager.instance.ModifyHappiness(5f);
         ActionPointManager.instance.currentPhase = currentPhase;
         ActionPointManager.instance.ResetDay();
 
