@@ -36,6 +36,17 @@ public class GameManager : MonoBehaviour
 
         AdvanceDay();
         HappinessManager.instance.ModifyHappiness(5f);
+
+        int apModifier = HappinessManager.instance.CurrentState switch
+        {
+            HappinessState.Happy => 1,
+            HappinessState.Stable => 0,
+            HappinessState.Bad => -1,
+            HappinessState.Depressed => -2,
+            HappinessState.Collapse => -3,
+            _ => 0
+        };
+        ActionPointManager.instance.SetHappinessModifier(apModifier);
         ActionPointManager.instance.currentPhase = currentPhase;
         ActionPointManager.instance.ResetDay();
 

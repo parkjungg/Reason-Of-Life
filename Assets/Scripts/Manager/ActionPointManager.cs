@@ -10,6 +10,7 @@ public class ActionPointManager : MonoBehaviour
     public LifePhase currentPhase = LifePhase.Infancy;
     public int CurrentAP { get; private set; }
     public int MaxAP => GameConfig.MaxAPByPhase[currentPhase];
+    private int _apModifier = 0;
 
     private void Awake()
     {
@@ -26,8 +27,8 @@ public class ActionPointManager : MonoBehaviour
 
     public void ResetDay()
     {
-        CurrentAP = MaxAP;
-        Debug.Log($"[AP] 새 날 시작 - 행동력 초기화: {CurrentAP}");
+        CurrentAP = Mathf.Max(0, MaxAP + _apModifier);
+        Debug.Log($"[AP] 새 날 시작 - 행동력: {CurrentAP} (기본 {MaxAP} {_apModifier:+0;-0})");
     }
 
     public bool UseAP(int cost)
@@ -43,4 +44,9 @@ public class ActionPointManager : MonoBehaviour
     }
     
     public bool HasAP(int cost) => CurrentAP >= cost;
+
+    public void SetHappinessModifier(int modifier)
+    {
+        _apModifier = modifier;
+    }
 }
