@@ -1,14 +1,15 @@
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class ActionPointManager : MonoBehaviour
 {
     public static ActionPointManager instance { get; private set; }
-
+    public event Action<int> OnAPChanged;
     
 
     public LifePhase currentPhase = LifePhase.Infancy;
     public int CurrentAP { get; private set; }
+    public int ActualMaxAP => Mathf.Max(0, MaxAP + _apModifier);
     public int MaxAP => GameConfig.MaxAPByPhase[currentPhase];
     private int _apModifier = 0;
 
@@ -27,7 +28,8 @@ public class ActionPointManager : MonoBehaviour
 
     public void ResetDay()
     {
-        CurrentAP = Mathf.Max(0, MaxAP + _apModifier);
+        CurrentAP = ActualMaxAP;
+        OnAPChanged?.Invoke(CurrentAP);
         Debug.Log($"[AP] 새 날 시작 - 행동력: {CurrentAP} (기본 {MaxAP} {_apModifier:+0;-0})");
     }
 
@@ -39,6 +41,7 @@ public class ActionPointManager : MonoBehaviour
             return false;
         }
         CurrentAP -= cost;
+        OnAPChanged?.Invoke(CurrentAP);
         Debug.Log($"[AP] -{cost} → 남은 행동력: {CurrentAP}");
         return true;
     }
