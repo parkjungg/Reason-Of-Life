@@ -21,7 +21,7 @@ public static class GameConfig
     // 페이즈 진행일 수
     public static readonly Dictionary<LifePhase, int> PhaseDuration = new()
     {
-        { LifePhase.Infancy, 2 },
+        { LifePhase.Infancy, 3 },
         { LifePhase.Adolescence, 3 },
         { LifePhase.Adult, 3 },
         { LifePhase.Elderly, 2 }
