@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,6 +12,7 @@ public class GameManager : MonoBehaviour
     public LifePhase currentPhase = LifePhase.Infancy;
     private int _dayInPhase = 1;
     public bool IsSleeping { get; private set; }
+    public event Action<LifePhase> OnPhaseChanged;
 
     private void Awake()
     {
@@ -35,7 +37,6 @@ public class GameManager : MonoBehaviour
         yield return StartCoroutine(FadeController.instance.FadeOut());
 
         AdvanceDay();
-        HappinessManager.instance.ModifyHappiness(5f);
 
         int apModifier = HappinessManager.instance.CurrentState switch
         {
@@ -46,6 +47,8 @@ public class GameManager : MonoBehaviour
             HappinessState.Collapse => -3,
             _ => 0
         };
+        HappinessManager.instance.ModifyHappiness(5f);
+        
         ActionPointManager.instance.SetHappinessModifier(apModifier);
         ActionPointManager.instance.currentPhase = currentPhase;
         ActionPointManager.instance.ResetDay();
@@ -80,6 +83,7 @@ public class GameManager : MonoBehaviour
             LifePhase.Adult => LifePhase.Elderly,
             _ => currentPhase // 노년기 끝 = 게임 엔딩 처리 필요
         };
+        OnPhaseChanged?.Invoke(currentPhase);
         Debug.Log($"[Phase] 페이즈 전환 → {currentPhase}");
     }
 }
